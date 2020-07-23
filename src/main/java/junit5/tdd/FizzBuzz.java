@@ -12,7 +12,7 @@ public class FizzBuzz {
         if(inputNumber%5==0){
             return "Buzz";
         }
-        if(inputNumber==7){
+        if(inputNumber%7==0){
             return "Whizz";
         }
         return result;
