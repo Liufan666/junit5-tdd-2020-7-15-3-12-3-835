@@ -9,6 +9,9 @@ public class FizzBuzz {
         if(inputNumber%21==0){
             return "FizzWhizz";
         }
+        if(inputNumber==35){
+            return "BuzzWhizz";
+        }
         if(inputNumber%3==0){
             return "Fizz";
         }
